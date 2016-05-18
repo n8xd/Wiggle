@@ -44,5 +44,5 @@ def positionHandler(evt) {
 
 private getOrientation(xyz=null) {
     def value = xyz ?: cube.currentValue("threeAxis")    
-    log.debug "${value.x}, ${value.y}, ${value.z}"
+    log.debug "Wiggle:  ${value.x}, ${value.y}, ${value.z}"
 }
